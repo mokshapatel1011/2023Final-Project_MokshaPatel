@@ -1,39 +1,39 @@
 Proposal
 
 ## What will (likely) be the title of your project?
-
-
+“Women versus Men in Literatures and Publications”
 
 ## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
-
-
+A program that serves as a text analysis tool, allowing users to compare the linguistic portrayal of men and women in texts and articles. Users can input various pieces of text, and the program performs a comprehensive analysis to compare the diction used for each gender.
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
-
+Our software will take an input of text from the user
+It will divide the text into sentences referring to women and sentences referring to men using key words. (ex. Does the sentence contain “she”, “her”, “Ms.”, etc)
+Then it will use the LIWC (linguistic inquiry and word count) dataset to detect the occurrences of certain diction in the text. For example, we will look at the difference in occurrence of body related words to shed light to objectification.
+We will then output a multi column bar graph with different metrics on the x-axis such as Body, family, achieve, positive emotion, negative emotion, and the graph will show the difference in representation of men and women in certain contexts
 
 ## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
-
-
+We are not planning to combine this final project with another course’s final project.
 
 ## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
-
-
+Moksha Patel:
+Email - tur44203@temple.edu
+TA - Xinwen (Ellen) Zhang
+Nihita Guda:
+Email - nihita.guda@temple.edu
+TA - Yang Zhao
 
 ## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
-
 ### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
-
-
+A good outcome for our project would be coding a program and using Word2Vec to identify words associated with genders and then categorizing them, providing a basic comparison of diction used to describe men versus women. The code would first take user input, and result in a table highlighting the discrepancies between females and males.
 
 ### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
-
-
-
+A better outcome for the project would involve implementing the LIWC (linguistic inquiry and word count) dataset to categorize the results of the Word2Vec model. The categories would be outputted in the form of a table, illustrating what categories were most common for each gender.
 ### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
-
-
+The best outcome for our project would be to develop a tool that not only analyzes diction but labels the diction into categories so that it could be put into a dynamic visualization of the varied portrayals of men and women in various texts and media.
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
-
+	
+The next step in this project involves gaining proficiency in word embedding models like Word2Vec which will help us capture semantic relationships between words. We would like to research more on how datasets can be imported into the Word2Vec model and how to call the model into our actual code. The word embedding model also requires parameters that have to be identified from the user’s input. Furthermore, we would also have to do more research to understand how the LIWC dataset can be implemented into our code through the use of dictionaries. Because there are two people working on the assignment, we plan to split up the work by sectioning the project into parts. The first part will include getting user input and creating the code for associating words. The second part will include implementing the LIWC dataset and creating the numerical system that can then be charted.
 
