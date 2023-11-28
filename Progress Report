@@ -1,0 +1,19 @@
+Moksha Patel
+TA - Xinwen (Ellen) Zhang
+“Women versus Men in Literatures and Publications”
+
+***
+
+Short answers for the below questions suffice. If you want to alter your plan for your project (and obtain approval for the same), be sure to email your section leader directly!
+
+#### What have you done for your project so far?
+
+We have created the first part of the code that allows the users to input the text that they want to convert. The input is transferred to the Word2vec where the text is separated and scanned for analogies related to both men and women. The end result of our current code is a list of words that are related to women and a list of words that are related to men from the text.
+
+#### What have you not done for your project yet?
+
+We still have yet to do the second part of the project where we have to LIWC (linguistic inquiry and word count) dataset to categorize the diction using the system given to us from the dataset. The information will then be organized into a chart that has to be designed to be visually appealing and easy to understand for the users.
+
+#### What problems, if any, have you encountered?
+
+We have run into a problem trying to implement the LIWC dataset because the code does not seem to be able to pull from the dataset file. We may have to revise the code to find a different dataset that will give us the same or similar results.
